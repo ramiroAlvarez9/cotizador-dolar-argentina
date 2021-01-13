@@ -1,0 +1,29 @@
+@media (min-width: 1365px){
+
+ 
+    .cotizacion {
+        margin: 30px 0 0 330px;
+        
+  
+    }
+    .cotizacion-oficial{
+       display:inline;    
+       font-size:50px;
+       margin: 200px 0 0 20px;
+       color: #BA5A1C;
+       
+    }
+    
+    .cotizacion-blue{
+        display:inline;
+        font-size:50px;
+        margin: 200px 0 0 50px;
+        color: #BA5A1C;
+
+        
+    
+
+    }
+
+
+}
