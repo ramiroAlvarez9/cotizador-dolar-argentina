@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Cotizacion from './components/Cotizacion'
-import Digitador from './components/Digitador';
+import TipoDeDolar from './components/TipoDeDolar';
 import Resultado from './components/Resultado';
 
 function App() {
@@ -34,20 +34,6 @@ function App() {
 
 
 
-   
-      
-      
-
-     
-      
-
-  
-
-
-
-
-
-
   
   return (
     
@@ -64,7 +50,7 @@ function App() {
 
     />
     
-    <Digitador 
+    <TipoDeDolar
 
     dolarOficialApi = {valorDolarOficial}
     dolarBlueApi= {valorDolarBlue}
