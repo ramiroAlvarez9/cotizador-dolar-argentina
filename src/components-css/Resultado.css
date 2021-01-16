@@ -1,6 +1,13 @@
-.resultado{
 
+#resultado{
+
+    font-size: 60px;
     margin-left: 20px;
-    visibility: hidden;
+    margin: 400px 0 0 850px;
+    color : #BA5A1C;
+    
 
 }
+
+
+
