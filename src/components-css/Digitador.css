@@ -5,6 +5,7 @@
     animation: gradient 30s ease infinite;
     border-radius: 10px;
     margin-top: 0;
+    width: 100%;
 
 }
 
@@ -39,7 +40,7 @@
 .digitador {
 
     height: 300px;
-    margin: 30px 0 0 20px;
+    margin: 30px 0 0 0px;
     border-top: solid 1px;
     border-color: white;
 
@@ -103,6 +104,206 @@
 
 
 }
+
+
+
+}
+
+
+
+@media (max-width: 768px) and (max-height: 1024px) {
+    
+
+    .botones{
+
+        display: flex;
+        justify-content: center;
+        margin-top:30px;
+
+
+
+    }   
+    
+.digitador {
+
+    height: 300px;
+    margin: 30px 0 0 0;
+    border-top: solid 1px;
+    border-color: white;
+
+}
+
+.titulo {
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 50px;
+    padding-top: 20px;
+    color: white;
+
+}
+
+
+
+.dolar-oficial{
+
+    width: 200px;
+    height: 100px;
+    border: solid 1px;
+    border-radius:10px;
+    border-color: white;
+    margin-right: 30px;
+    font-size:30px;
+    background-color: rgba(255, 255, 255, 0.041);
+    color: white;
+    transition: 0.7s;
+
+}
+
+
+.dolar-blue{
+
+    width: 200px;
+    height: 100px;
+    border-radius:10px;
+    border: solid 1px;
+    border-color: white;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.041);
+    transition: 0.7s;
+    color: white;
+
+
+}
+
+
+
+
+
+.digitador {
+	background: linear-gradient(-45deg, #ee7752, #2f791c, #70da76, #00dba8);
+	background-size: 500% 500%;
+    animation: gradient 30s ease infinite;
+    border-radius: 10px;
+    margin-top: 0;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+}
+
+
+
+@media (min-width: 260px) and (max-width: 768px)  {
+
+
+    
+
+
+.botones{
+
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+
+
+
+}   
+    
+.digitador {
+
+    height: 170px;
+    margin: 30px 0 0 0px;
+    border-top: solid 1px;
+    border-color: white;
+
+}
+
+.titulo {
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 25px;
+    padding-top: 20px;
+    color: white;
+
+}
+
+
+
+.dolar-oficial{
+
+    width: 100px;
+    height: 50px;
+    border: solid 1px;
+    border-radius:10px;
+    border-color: white;
+    margin-right: 30px;
+    font-size:15px;
+    background-color: rgba(255, 255, 255, 0.041);
+    color: white;
+    transition: 0.7s;
+
+}
+
+
+.dolar-blue{
+
+    width: 100px;
+    height: 50px;
+    border-radius:10px;
+    border: solid 1px;
+    border-color: white;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.041);
+    transition: 0.7s;
+    color: white;
+
+
+}
+
+
+
+
+
+.digitador {
+	background: linear-gradient(-45deg, #ee7752, #2f791c, #70da76, #00dba8);
+	background-size: 500% 500%;
+    animation: gradient 30s ease infinite;
+    border-radius: 10px;
+    margin-top: 0;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+
+
 
 
 
